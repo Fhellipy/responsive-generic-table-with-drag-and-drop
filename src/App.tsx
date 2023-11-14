@@ -82,7 +82,7 @@ export default function App() {
 
       <section className="border p-4 rounded">
         <h2 className="font-bold mb-2 uppercase">
-          Tabela responsiva com Drag and Drop
+          Tabela responsiva com arrastar e soltar
         </h2>
 
         <TableWithDragAndDrop
@@ -95,7 +95,8 @@ export default function App() {
 
       <section className="border p-4 rounded">
         <h2 className="font-bold mb-2 uppercase">
-          Tabela responsiva com Drag and Drop sem usar a função de drag and drop
+          Tabela responsiva com arrastar e soltar sem usar a função de arrastar
+          e soltar
         </h2>
 
         <TableWithDragAndDrop data={users} columns={columns} />
