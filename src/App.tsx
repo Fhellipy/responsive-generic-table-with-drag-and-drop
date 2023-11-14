@@ -92,6 +92,14 @@ export default function App() {
           handlePosition={(id, position) => console.log(id, position)}
         />
       </section>
+
+      <section className="border p-4 rounded">
+        <h2 className="font-bold mb-2 uppercase">
+          Tabela responsiva com Drag and Drop sem usar a função de drag and drop
+        </h2>
+
+        <TableWithDragAndDrop data={users} columns={columns} />
+      </section>
     </article>
   );
 }
